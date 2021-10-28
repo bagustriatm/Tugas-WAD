@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@font-face {
+        font-family: 'concert-one';
+        src: url(assets/font/Poppins/Poppins-Thin.ttf);
+        }
+.contacthome{
+	color: whitesmoke;
+	padding-right: 50px;
+	margin-top: 20px;
+}
+main{
+	background: url(https://img.okezone.com/content/2021/06/20/620/2427976/donor-darah-usai-divaksin-aman-ini-5-syaratnya-iqdLawvim6.jpg),url("../img/Rectangle 81.png")no-repeat;
+	background-size:cover;
+	background-blend-mode:overlay;
+}
+.logo{
+	padding-left: 50px;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+nav a{
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+nav a:hover{
+	font-weight: bold;
+	cursor: default;
+	color: white;
+}
+footer {
+   padding: 10px;
+   text-align: center;
+	color: white;
+}
+.rectangle {
+  height: 370px;
+  width: 500px;
+	border-radius: 5%;
+}
+.label{
+	max-width: 300px;
+}
+.btnlogin{
+	background-color: #1ED700;
+	width: 100px;
+	transition: transform 0.5s;
+}
+.btn:hover{
+	background-color: #1ED700;
+	transform: scale(1.15);
+	cursor: default;
+}
+.loginform{
+	padding: 30px;
+}
+.textlink{
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+	transition: transform 0.5s;
+}
+.textlink:hover{
+	transform: scale(1.15);
+	cursor: default;
+}
